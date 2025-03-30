@@ -1,0 +1,50 @@
+# Rider-specific files
+.idea/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code (in case project is opened there too)
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# Resharper settings
+.ReSharper*/
+*_Resharper*/
+*.DotSettings.user
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env.*
